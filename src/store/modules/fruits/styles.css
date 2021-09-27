@@ -1,0 +1,53 @@
+.fruits {
+  height: 80vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(136, 123, 99);
+  border-radius: 25px;
+}
+#banana {
+  height: 150px;
+  width: 150px;
+  background-image: url(./banana.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+#maca {
+  height: 150px;
+  width: 150px;
+  background-image: url(./apple.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+#morango {
+  height: 150px;
+  width: 150px;
+  background-size: contain;
+  background-image: url(./strawberry.png);
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 700px) {
+  .fruits {
+    width: 50%;
+    flex-direction: row;
+  }
+}
