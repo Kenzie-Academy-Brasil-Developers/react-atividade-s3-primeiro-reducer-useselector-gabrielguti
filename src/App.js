@@ -1,5 +1,5 @@
 import "./App.css";
-import FruitsPage from "./store/modules/fruits/action";
+import FruitsPage from "./components/FruitsPage";
 function App() {
   return (
     <div className="App">
